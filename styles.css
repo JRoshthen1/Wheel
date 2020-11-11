@@ -254,55 +254,47 @@ a.button {
 /* FOOTER */
 /* ========================================================================== */
 
-#footer {
+#footer{
+  padding-top: 20px;
+  padding-bottom: 20px;
   bottom: 0;
   width: 100%;
-  height: 150px;
-  background: var(--primary-color);
+  background: #8EA7BB;
 }
-
-.footer-head {
+.footer-head{
   color: white;
+  font-size: 28px;
 }
-
-#footer a {
-  color: white;
+#footer a{
+  color:#f4f4f4;
 }
-
-.text-footer {
-  color: rgb(255, 255, 255);
+.text-footer{
+  color: #f4f4f4;
 }
-
-.email {
-  color: rgb(255, 255, 255);
+.email{
+  color: #f4f4f4;
 }
-
-.place {
-  color: rgb(255, 255, 255);
+.place{
+  color:#f4f4f4;
 }
-
-.phone {
-  color: rgb(255, 255, 255);
+.phone{
+  color:#f4f4f4 ;
 }
-
-h2 {
+h2{
   text-align: center;
 }
-
-.social {
+.social{
   text-align: center;
 }
-
-.content {
+.content{
   text-align: center;
 }
-
-.copyright {
+.copyright{
   text-align: center;
+  font-size: 12px;
 }
-
-.copyright p {
-  color: rgb(255, 255, 255);
+.copyright p{
+  color: var(--primary-color);
 }
 
 
