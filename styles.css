@@ -220,14 +220,7 @@ h1{
 }
 
 .pole a{
-    text-decoration: none;
-    background-color: var(--hover-color);
-    padding: 2px;
-    color: black;
-    border: 1px solid;
-    border-color: darkgrey;
-    border-radius: 5px;
-    
+    text-decoration: underline;
 }
 
 
