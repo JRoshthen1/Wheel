@@ -253,7 +253,6 @@ margin-bottom: 30px;
   font-size: 20px;
   font-family:'Montserrat';
   margin: 5px;
-  text-align: ;
   align-content: right;
   margin-bottom: 30px;
 }
@@ -263,6 +262,16 @@ margin-bottom: 30px;
 
   float: inline-start;
 }
+
+.formbox {
+
+  border: 2px;
+  border-color: black;
+  margin-bottom: 60px;
+  width: 600px;
+  padding: 50px;
+  
+  }
 
 
 
