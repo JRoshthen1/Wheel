@@ -143,11 +143,12 @@ body {
 /*HEADER ENDS*/
 
 
+
 /*SECTION*/
 
-.h1 {
+.h1-main {
 font-size: 60px;
-padding: 20px;
+padding: 50px;
 display: flex;
 justify-content: space-evenly;
 
@@ -159,6 +160,7 @@ justify-content: space-evenly;
     justify-content: space-evenly;
     align-items: center;
     font-family: "Montserrat";
+    font-size: 20px;
     margin-left: 60px;
     margin-right: 60px;
     margin-top: 40px;
@@ -211,20 +213,17 @@ align-content: center;
     width:300px;
 
 }
-button{
-  padding: 5px;
-  font-size: 15px;
-  margin: auto;
-  display: flex;
-  justify-content: center;
-  margin-bottom: 20px;
-  background-color: var(--secondary-color);
-  border: solid 1px #333;
+
+.h1 {
+flex: 1;
+padding: 30px;
+font-size: 20px;
+font-family:'Montserrat';
+margin: 20px;
+align-content: right;
+margin-bottom: 30px;
 }
-button:hover{
-  background-color: var(--hover-color);
-  border: solid 1px #333;
-}
+
 /*FORM STARTS*/
 .form {
   padding-left: 80px;
@@ -263,6 +262,74 @@ input [type="submit"] {
 
 
 /*FORM ENDS*/
+
+button{
+  padding: 5px;
+  font-size: 15px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  background-color: var(--secondary-color);
+  border: solid 1px #333;
+}
+button:hover{
+  background-color: var(--hover-color);
+  border: solid 1px #333;
+}
+
+
+/* ========================================================================== */
+/* designers 0000000 */
+/* ========================================================================== */
+.designer1  {
+  display: flex;
+  flex-direction: column; 
+padding: 30px;
+font-size: 20px;
+font-family:'Montserrat';
+margin: 5px;
+margin-bottom: 30px;
+align-items: center ;
+}
+
+.trainer-photo{
+  max-width: 300px;
+}
+
+.deimage {
+
+  float: inline-start;
+}
+
+.design-h1{
+  display: flex;
+  justify-content: center;
+}
+
+.trainer-text-container{
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+}
+
+
+.trainers-social{
+  text-align: center;
+  padding: 10px;
+}
+
+.fa-youtube{
+  color: red;
+}
+
+.fa-twitter{
+  color: #1DA1F2;
+}
+.fa-facebook-f{
+  color: #4267B2
+}
+
 
 
 
@@ -314,11 +381,12 @@ h2{
 }
 
 
+
 @media screen and (max-width: 700px) {
     .container {
         flex-direction: column;
     }
-    .h1{
+    .h1-main{
         font-size:30px ;
     }
 }
@@ -342,4 +410,20 @@ h2{
     .header .menu-icon {
       display: none;
     }
+
+    .designer1  {
+      display: flex;
+      flex-direction: row; 
+    }
+    
+    .designer2 {
+    display: flex;
+    flex-direction: row;
+    }
+    
+    .designer3 {
+      display: flex;
+    flex-direction: row;
+    }
+
   }
