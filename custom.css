@@ -219,7 +219,11 @@ button{
   justify-content: center;
   margin-bottom: 20px;
   background-color: var(--secondary-color);
-  border: none;
+  border: solid 1px #333;
+}
+button:hover{
+  background-color: var(--hover-color);
+  border: solid 1px #333;
 }
 /*FORM STARTS*/
 .form {

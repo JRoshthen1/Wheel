@@ -177,15 +177,16 @@ h1 {
 }
 
 .blog-content {
-  margin: 30px;
-  padding: 40px;
-  max-width: 1000px;
+  padding: 20px;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
   background-color: var(--secondary-color);
   font-size: 18px;
 }
 
 .blog-image {
-  max-width: 600px;
+  width: 375px;
 }
 
 
@@ -196,7 +197,7 @@ h1 {
 
   position: relative;
   height: 100vh;
-  width: 100vw;
+  max-width: 100%;
   overflow: hidden;
   margin-top: 50px;
 }
@@ -322,4 +323,19 @@ h2{
   .header .menu-icon {
     display: none;
   }
+
+  .blog-content {
+    margin: 30px;
+    padding: 40px;
+    max-width: 1000px;
+    background-color: var(--secondary-color);
+    font-size: 18px;
+  }
+  
+  .blog-image {
+    width: 600px;
+
+  }
+
+  
 }
