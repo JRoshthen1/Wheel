@@ -168,6 +168,23 @@ h1{
     font-size: 40px;
 }
 
+.why-vanlife{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+}
+
+.blog-content{
+  margin: auto;
+  padding: 40px;
+  width: 1000px;
+}
+
+.blog-image{
+  max-width: 600px;
+}
+
 
 /* ========================================================================== */
 /* Video */
