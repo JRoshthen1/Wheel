@@ -9,7 +9,7 @@
   --secondary-color: #acceeba4;
   --tertiary-color: #ad5c1a;
   --quaternary-color: #406b25;
-  --hover-color: #998ba1;
+  --hover-color: #EDE0F5;
 }
 
 /* ========================================================================== */
@@ -29,9 +29,7 @@ a {
   /* header */
   
 .header {
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 10px;
+
   background-color: #fff;
   box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
   position: fixed;
@@ -150,17 +148,6 @@ a {
 /* ========================================================================== */
 
 
-
-
-.order-button{
-padding: 10px;
-text-decoration: none;
-margin-top: 15px;
-border: 1px solid;
-border-radius: 5px;
-background-color: var(--secondary-color);
-}
-
 .main-text-p{
   font-size: 17px;
 }
@@ -271,7 +258,14 @@ input [type="submit"] {
   margin:20px 0;
 }
 
-
+button{
+  padding: 5px;
+  font-size: 15px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
 
 /*FORM ENDS*/
 
