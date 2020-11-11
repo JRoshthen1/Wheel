@@ -218,6 +218,8 @@ button{
   display: flex;
   justify-content: center;
   margin-bottom: 20px;
+  background-color: var(--secondary-color);
+  border: none;
 }
 /*FORM STARTS*/
 .form {
