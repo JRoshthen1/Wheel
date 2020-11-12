@@ -182,6 +182,7 @@ body{
     font-family: 'Montserrat';
 }
 
+
 .fourthblock{
     grid-area: block4 ;
     background-image: url(images/21.jpg);
@@ -256,6 +257,10 @@ p{
 }
 /*BOXES END*/
 
+.layout p{
+  width: 400px;
+}
+
 /* ========================================================================== */
 /* FOOTER */
 /* ========================================================================== */
@@ -324,5 +329,12 @@ h2{
   }
 
 
+  @media (max-width: 1180px) {
+    .layout{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+  }
+
